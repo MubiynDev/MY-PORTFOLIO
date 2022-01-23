@@ -9,7 +9,7 @@ img{
 
 .main{
  min-height: 100vh;
- background: url(../images/Untitled-1111111111-01.png) no-repeat;
+ background: url(/images/Untitled-1111111111-01.png) no-repeat;
  background-size: cover
  
 }
@@ -20,7 +20,7 @@ img{
     color: #ccc !important;
     font-weight: 900 !important;
     position: relative;
-    font-size: 1.3rem
+    font-size: 1.3rem;
     
 }
 .navbar-nav li{
@@ -41,7 +41,7 @@ img{
 }
 .hello{
     color: #ccc;
-    margin-top: 10% !important;
+    margin-top: 6% !important;
 
 }
 .myname{
@@ -67,6 +67,71 @@ img{
 .animated-text h3:nth-child(1){
     animation: move 10s infinite;
 }
+.wrapper-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+    margin: 32px 0 0 60px;
+    /* outline: darkcyan solid; */
+}
+.have-idea{
+    color: rgb(133, 132, 132);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+.lets-talk{
+    color: #ccc;
+    background-color: rgb(2, 112, 112);
+    font-size: 25px;
+    font-weight: 900;
+    padding: 8px 37px;
+    border-radius: 6px;
+    font-family: cursive;
+    outline: solid rgb(2, 112, 112) 3px;
+    transition: 0.5s ease;
+}
+.lets-talk .none-block{
+    animation: on-off 3s  infinite;
+    font-size: 32px;
+    line-height:11px;
+}
+.lets-talk:hover{
+    text-decoration: none;
+    color: rgb(2, 112, 112);
+    background: none;
+
+}
+.media-icons a:hover{
+    text-decoration: none;
+    
+}
+.media-icons .fab{
+    margin: 20px 7px;
+    color: rgb(133, 132, 132);
+    transition: 0.5s ease;
+}
+.media-icons .fab:hover{
+    color: rgb(2, 112, 112);
+}
+@keyframes on-off{
+   0%{
+       opacity: 100%;
+   }
+   25%{
+       opacity: 10%
+   }
+   50%{
+       opacity: 100%;
+   }
+   75%{
+       opacity: 10%;
+   }
+   100%{
+       opacity: 100%;
+   }
+}
+
 @keyframes move{
     0%{
         margin-top: 0;
