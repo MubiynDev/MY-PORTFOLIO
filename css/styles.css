@@ -9,8 +9,9 @@ img{
 
 .main{
  min-height: 100vh;
- background: url(/images/Untitled-1111111111-01.png) no-repeat;
- background-size: cover
+ background: url(../images/Untitled-1111111111-01.png) no-repeat;
+ background-size: cover;
+ background-attachment: fixed;
  
 }
 .logo{
