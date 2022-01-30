@@ -552,4 +552,7 @@ label{
     .title-hide{
         font-size: 21px !important;
     }
+    .lets-talk, .see-all{
+        outline-offset: 6px;
+    }
   }
