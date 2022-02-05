@@ -421,7 +421,7 @@ label{
     color: #fff;
     width: 45px;
     height: 45px;
-    right: 3% !important;
+    right: 7% !important;
     bottom: 5% !important;
     font-size: 22px;
     text-align: center;
@@ -455,7 +455,7 @@ label{
           background-color: rgb(17, 224, 224) !important;
       }
       .media-image{
-         width: 400px;
+         width: 250px;
       }
       .hello{
           text-align: center;
